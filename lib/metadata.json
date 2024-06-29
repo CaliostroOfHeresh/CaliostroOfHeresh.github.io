@@ -1,6 +1,6 @@
 {
   "vaultName": "ObsidianHex",
-  "lastExport": 1719679299871,
+  "lastExport": 1719680949667,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": true,
@@ -38,7 +38,14 @@
     "lib/styles/obsidian.css",
     "lib/styles/global-variable-styles.css",
     "lib/styles/supported-plugins.css",
-    "lib/styles/main-styles.css"
+    "lib/styles/main-styles.css",
+    "hex-schism/изображения/pasted-image-20240622204255.png",
+    "hex-schism/изображения/пример_тактичсеской_карты.png",
+    "hex-schism/изображения/гекс_земли.png",
+    "hex-schism/изображения/гекс_топь.png",
+    "hex-schism/изображения/гекс_воды.png",
+    "hex-schism/изображения/гекс_препятствие.png",
+    "hex-schism/изображения/гекс_старт.png"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -166,8 +173,8 @@
       "dependencies": []
     },
     "Hex-Schism/README.md": {
-      "modifiedTime": 1719679299871,
-      "sourceSize": 56,
+      "modifiedTime": 1719680949667,
+      "sourceSize": 13,
       "exportedPath": "hex-schism/readme.html",
       "dependencies": []
     },
@@ -214,97 +221,97 @@
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1719680949667,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1719680949667,
       "sourceSize": 7976,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1719680949667,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1719680949667,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1719680949667,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1719680949667,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1719680949667,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1719680949667,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1719680949667,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1719680949667,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/html/custom-head-content.html": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1719680949667,
       "sourceSize": 485,
       "exportedPath": "lib/html/custom-head-content.html",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1719680949667,
       "sourceSize": 801,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1719680949667,
       "sourceSize": 130164,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1719680949667,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1719680949667,
       "sourceSize": 1692,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1719680949667,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
