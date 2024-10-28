@@ -1,26 +1,33 @@
 {
   "vaultName": "ObsidianHex",
-  "lastExport": 1719680949667,
+  "lastExport": 1730131432953,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-light show-inline-title show-ribbon",
   "useCustomHeadContent": true,
   "useCustomFavicon": false,
   "files": [
+    "Hex-Schism/Изображения/Базовый_цикл.png",
     "Hex-Schism/Изображения/Гекс_Воды.png",
     "Hex-Schism/Изображения/Гекс_Земли.png",
     "Hex-Schism/Изображения/Гекс_Препятствие.png",
     "Hex-Schism/Изображения/Гекс_Старт.png",
     "Hex-Schism/Изображения/Гекс_Топь.png",
+    "Hex-Schism/Изображения/Интерфейс_города.png",
+    "Hex-Schism/Изображения/Пример_жетоны.png",
     "Hex-Schism/Изображения/Пример_Тактичсеской_Карты.png",
-    "Hex-Schism/Изображения/Pasted image 20240622204255.png",
-    "Hex-Schism/Изображения/pasted-image-20240622204255.png",
+    "Hex-Schism/Изображения/Стратегическая_карта.jpg",
+    "Hex-Schism/Изображения/Ячейки_инвентаря_героя.jpg",
+    "Hex-Schism/Изображения/Ячейки_инвентаря_команды.jpg",
     "Hex-Schism/Базовое описание.md",
     "Hex-Schism/Бой.md",
     "Hex-Schism/Герои.md",
+    "Hex-Schism/Город.md",
     "Hex-Schism/Жетоны.md",
     "Hex-Schism/Периодические эффекты.md",
     "Hex-Schism/Перманентные эффекты.md",
+    "Hex-Schism/Подготовка к походу.md",
     "Hex-Schism/Порог смерти и Нервный срыв.md",
+    "Hex-Schism/Поход.md",
     "Hex-Schism/Расходные предметы.md",
     "Hex-Schism/README.md",
     "lib/scripts/graph-wasm.wasm",
@@ -39,13 +46,18 @@
     "lib/styles/global-variable-styles.css",
     "lib/styles/supported-plugins.css",
     "lib/styles/main-styles.css",
-    "hex-schism/изображения/pasted-image-20240622204255.png",
+    "hex-schism/изображения/базовый_цикл.png",
     "hex-schism/изображения/пример_тактичсеской_карты.png",
     "hex-schism/изображения/гекс_земли.png",
     "hex-schism/изображения/гекс_топь.png",
     "hex-schism/изображения/гекс_воды.png",
     "hex-schism/изображения/гекс_препятствие.png",
-    "hex-schism/изображения/гекс_старт.png"
+    "hex-schism/изображения/гекс_старт.png",
+    "hex-schism/изображения/пример_жетоны.png",
+    "hex-schism/изображения/интерфейс_города.png",
+    "hex-schism/изображения/стратегическая_карта.jpg",
+    "hex-schism/изображения/ячейки_инвентаря_команды.jpg",
+    "hex-schism/изображения/ячейки_инвентаря_героя.jpg"
   ],
   "mainDependencies": [
     "lib/scripts/graph-wasm.wasm",
@@ -102,30 +114,18 @@
       "exportedPath": "hex-schism/изображения/пример_тактичсеской_карты.png",
       "dependencies": []
     },
-    "Hex-Schism/Изображения/Pasted image 20240622204255.png": {
-      "modifiedTime": 1719679299871,
-      "sourceSize": 42350,
-      "exportedPath": "hex-schism/изображения/pasted-image-20240622204255.png",
-      "dependencies": []
-    },
-    "Hex-Schism/Изображения/pasted-image-20240622204255.png": {
-      "modifiedTime": 1719679299871,
-      "sourceSize": 42350,
-      "exportedPath": "hex-schism/изображения/pasted-image-20240622204255.png",
-      "dependencies": []
-    },
     "Hex-Schism/Базовое описание.md": {
-      "modifiedTime": 1719679299871,
-      "sourceSize": 6080,
+      "modifiedTime": 1730131326702,
+      "sourceSize": 6049,
       "exportedPath": "hex-schism/базовое-описание.html",
       "dependencies": [
-        "hex-schism/изображения/pasted-image-20240622204255.png",
-        "hex-schism/изображения/pasted-image-20240622204255.png"
+        "hex-schism/изображения/базовый_цикл.png",
+        "hex-schism/изображения/базовый_цикл.png"
       ]
     },
     "Hex-Schism/Бой.md": {
-      "modifiedTime": 1719679299871,
-      "sourceSize": 1537,
+      "modifiedTime": 1730131326702,
+      "sourceSize": 8167,
       "exportedPath": "hex-schism/бой.html",
       "dependencies": [
         "hex-schism/изображения/пример_тактичсеской_карты.png",
@@ -133,24 +133,26 @@
         "hex-schism/изображения/гекс_топь.png",
         "hex-schism/изображения/гекс_воды.png",
         "hex-schism/изображения/гекс_препятствие.png",
-        "hex-schism/изображения/гекс_старт.png"
+        "hex-schism/изображения/гекс_старт.png",
+        "hex-schism/изображения/пример_жетоны.png",
+        "hex-schism/изображения/пример_жетоны.png"
       ]
     },
     "Hex-Schism/Герои.md": {
-      "modifiedTime": 1719679299871,
-      "sourceSize": 4442,
+      "modifiedTime": 1730131326702,
+      "sourceSize": 5836,
       "exportedPath": "hex-schism/герои.html",
       "dependencies": []
     },
     "Hex-Schism/Жетоны.md": {
-      "modifiedTime": 1719679299871,
-      "sourceSize": 13019,
+      "modifiedTime": 1730131326702,
+      "sourceSize": 13651,
       "exportedPath": "hex-schism/жетоны.html",
       "dependencies": []
     },
     "Hex-Schism/Периодические эффекты.md": {
-      "modifiedTime": 1719679299871,
-      "sourceSize": 3050,
+      "modifiedTime": 1730131326702,
+      "sourceSize": 3243,
       "exportedPath": "hex-schism/периодические-эффекты.html",
       "dependencies": []
     },
@@ -161,8 +163,8 @@
       "dependencies": []
     },
     "Hex-Schism/Порог смерти и Нервный срыв.md": {
-      "modifiedTime": 1719679299871,
-      "sourceSize": 3757,
+      "modifiedTime": 1730131326702,
+      "sourceSize": 4392,
       "exportedPath": "hex-schism/порог-смерти-и-нервный-срыв.html",
       "dependencies": []
     },
@@ -173,147 +175,244 @@
       "dependencies": []
     },
     "Hex-Schism/README.md": {
-      "modifiedTime": 1719680949667,
-      "sourceSize": 13,
+      "modifiedTime": 1730131326702,
+      "sourceSize": 17,
       "exportedPath": "hex-schism/readme.html",
       "dependencies": []
     },
-    "hex-schism/изображения/pasted-image-20240622204255.png": {
-      "modifiedTime": 1719679299871,
-      "sourceSize": 42350,
-      "exportedPath": "hex-schism/изображения/pasted-image-20240622204255.png",
-      "dependencies": []
-    },
     "hex-schism/изображения/пример_тактичсеской_карты.png": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1730131326702,
       "sourceSize": 63254,
       "exportedPath": "hex-schism/изображения/пример_тактичсеской_карты.png",
       "dependencies": []
     },
     "hex-schism/изображения/гекс_земли.png": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1730131326702,
       "sourceSize": 3389,
       "exportedPath": "hex-schism/изображения/гекс_земли.png",
       "dependencies": []
     },
     "hex-schism/изображения/гекс_топь.png": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1730131326702,
       "sourceSize": 4423,
       "exportedPath": "hex-schism/изображения/гекс_топь.png",
       "dependencies": []
     },
     "hex-schism/изображения/гекс_воды.png": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1730131326702,
       "sourceSize": 3295,
       "exportedPath": "hex-schism/изображения/гекс_воды.png",
       "dependencies": []
     },
     "hex-schism/изображения/гекс_препятствие.png": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1730131326702,
       "sourceSize": 6347,
       "exportedPath": "hex-schism/изображения/гекс_препятствие.png",
       "dependencies": []
     },
     "hex-schism/изображения/гекс_старт.png": {
-      "modifiedTime": 1719679299871,
+      "modifiedTime": 1730131326702,
       "sourceSize": 3131,
       "exportedPath": "hex-schism/изображения/гекс_старт.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1719680949667,
+      "modifiedTime": 1730131432953,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1719680949667,
-      "sourceSize": 7976,
+      "modifiedTime": 1730131432953,
+      "sourceSize": 10459,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1719680949667,
+      "modifiedTime": 1730131432953,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1719680949667,
+      "modifiedTime": 1730131432953,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1719680949667,
+      "modifiedTime": 1730131432953,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1719680949667,
+      "modifiedTime": 1730131432953,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1719680949667,
+      "modifiedTime": 1730131432953,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1719680949667,
+      "modifiedTime": 1730131432953,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1719680949667,
+      "modifiedTime": 1730131432953,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1719680949667,
+      "modifiedTime": 1730131432953,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/html/custom-head-content.html": {
-      "modifiedTime": 1719680949667,
+      "modifiedTime": 1730131432953,
       "sourceSize": 485,
       "exportedPath": "lib/html/custom-head-content.html",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1719680949667,
-      "sourceSize": 801,
+      "modifiedTime": 1730131432953,
+      "sourceSize": 933,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1719680949667,
+      "modifiedTime": 1730131432953,
       "sourceSize": 130164,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1719680949667,
+      "modifiedTime": 1730131432953,
       "sourceSize": 236,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1719680949667,
+      "modifiedTime": 1730131432953,
       "sourceSize": 1692,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1719680949667,
+      "modifiedTime": 1730131432953,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "Hex-Schism/Изображения/Базовый_цикл.png": {
+      "modifiedTime": 1730131326702,
+      "sourceSize": 42350,
+      "exportedPath": "hex-schism/изображения/базовый_цикл.png",
+      "dependencies": []
+    },
+    "Hex-Schism/Изображения/Интерфейс_города.png": {
+      "modifiedTime": 1730131326702,
+      "sourceSize": 1124390,
+      "exportedPath": "hex-schism/изображения/интерфейс_города.png",
+      "dependencies": []
+    },
+    "Hex-Schism/Изображения/Пример_жетоны.png": {
+      "modifiedTime": 1730131326702,
+      "sourceSize": 15970,
+      "exportedPath": "hex-schism/изображения/пример_жетоны.png",
+      "dependencies": []
+    },
+    "Hex-Schism/Изображения/Стратегическая_карта.jpg": {
+      "modifiedTime": 1730131326702,
+      "sourceSize": 34761,
+      "exportedPath": "hex-schism/изображения/стратегическая_карта.jpg",
+      "dependencies": []
+    },
+    "Hex-Schism/Изображения/Ячейки_инвентаря_героя.jpg": {
+      "modifiedTime": 1730131326702,
+      "sourceSize": 5945,
+      "exportedPath": "hex-schism/изображения/ячейки_инвентаря_героя.jpg",
+      "dependencies": []
+    },
+    "Hex-Schism/Изображения/Ячейки_инвентаря_команды.jpg": {
+      "modifiedTime": 1730131326702,
+      "sourceSize": 11508,
+      "exportedPath": "hex-schism/изображения/ячейки_инвентаря_команды.jpg",
+      "dependencies": []
+    },
+    "Hex-Schism/Город.md": {
+      "modifiedTime": 1730131326702,
+      "sourceSize": 15808,
+      "exportedPath": "hex-schism/город.html",
+      "dependencies": [
+        "hex-schism/изображения/интерфейс_города.png",
+        "hex-schism/изображения/интерфейс_города.png"
+      ]
+    },
+    "Hex-Schism/Подготовка к походу.md": {
+      "modifiedTime": 1730131326702,
+      "sourceSize": 6794,
+      "exportedPath": "hex-schism/подготовка-к-походу.html",
+      "dependencies": [
+        "hex-schism/изображения/стратегическая_карта.jpg",
+        "hex-schism/изображения/стратегическая_карта.jpg",
+        "hex-schism/изображения/ячейки_инвентаря_команды.jpg",
+        "hex-schism/изображения/ячейки_инвентаря_команды.jpg",
+        "hex-schism/изображения/ячейки_инвентаря_героя.jpg",
+        "hex-schism/изображения/ячейки_инвентаря_героя.jpg"
+      ]
+    },
+    "Hex-Schism/Поход.md": {
+      "modifiedTime": 1730131326702,
+      "sourceSize": 10376,
+      "exportedPath": "hex-schism/поход.html",
+      "dependencies": [
+        "hex-schism/изображения/стратегическая_карта.jpg",
+        "hex-schism/изображения/стратегическая_карта.jpg"
+      ]
+    },
+    "hex-schism/изображения/базовый_цикл.png": {
+      "modifiedTime": 1730131326702,
+      "sourceSize": 42350,
+      "exportedPath": "hex-schism/изображения/базовый_цикл.png",
+      "dependencies": []
+    },
+    "hex-schism/изображения/пример_жетоны.png": {
+      "modifiedTime": 1730131326702,
+      "sourceSize": 15970,
+      "exportedPath": "hex-schism/изображения/пример_жетоны.png",
+      "dependencies": []
+    },
+    "hex-schism/изображения/интерфейс_города.png": {
+      "modifiedTime": 1730131326702,
+      "sourceSize": 1124390,
+      "exportedPath": "hex-schism/изображения/интерфейс_города.png",
+      "dependencies": []
+    },
+    "hex-schism/изображения/стратегическая_карта.jpg": {
+      "modifiedTime": 1730131326702,
+      "sourceSize": 34761,
+      "exportedPath": "hex-schism/изображения/стратегическая_карта.jpg",
+      "dependencies": []
+    },
+    "hex-schism/изображения/ячейки_инвентаря_команды.jpg": {
+      "modifiedTime": 1730131326702,
+      "sourceSize": 11508,
+      "exportedPath": "hex-schism/изображения/ячейки_инвентаря_команды.jpg",
+      "dependencies": []
+    },
+    "hex-schism/изображения/ячейки_инвентаря_героя.jpg": {
+      "modifiedTime": 1730131326702,
+      "sourceSize": 5945,
+      "exportedPath": "hex-schism/изображения/ячейки_инвентаря_героя.jpg",
       "dependencies": []
     }
   }
